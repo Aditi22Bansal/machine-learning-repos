@@ -11,7 +11,7 @@ plt.title("Scatter Plot")
 plt.show()
  
 X=df[['YearsExperience']]
-y=df['Salary']
+y=df['Salary'] 
 
 model=LinearRegression()
 model.fit(X,y)  #calculates best fitting relation between x and y
